@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+dist/
+build/
+
+# PyTorch
+*.pt
+*.pth
+*.ckpt
+
+# Checkpoints
+checkpoints/
+
+# Logs
+*.log
+wandb/
+
+# IDE
+.vscode/
+.idea/
+
+# Data
+*.h5
+*.hdf5
+*.parquet
+
+# OS
+.DS_Store
